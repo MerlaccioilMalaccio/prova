@@ -43,9 +43,4 @@ function esegui(callable $callback, int $valore): int {
 return $callback($valore);
 }
 
-function aggiungiTre(int $n): int {
-return $n + 3;
-}
-
-echo esegui('aggiungiTre', 5) . PHP_EOL;
-
+echo "modifica aggiunta";
